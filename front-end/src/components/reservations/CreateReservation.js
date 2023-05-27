@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { createReservation } from "../../utils/api";
 import ReservationForm from "./ReservationForm";
-import Error from "./../Error";
+import Error from "../Error"
 
 export default function CreateReservation() {
   const [errors, setErrors] = useState({});
