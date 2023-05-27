@@ -1,0 +1,11 @@
+.table td {
+    vertical-align : baseline;
+}
+
+.table th {
+    vertical-align : baseline;
+}
+
+td button {
+    margin-bottom: 3px;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+
+body{
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+.btn-outline-dark:hover{
+    font-weight: 500;
+      background: linear-gradient(
+      to right,
+          rgba(255, 0, 0, 1),
+          rgba(255, 0, 180, 1),
+          rgba(0, 100, 200, 1)
+    );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  
+  .btn-outline-dark:focus{
+    box-shadow: none;
+    font-weight: 500;
+      background: linear-gradient(
+      to right,
+          rgba(255, 0, 0, 1),
+          rgba(255, 0, 180, 1),
+          rgba(0, 100, 200, 1)
+    );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }

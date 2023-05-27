@@ -1,0 +1,9 @@
+h1, h4 {
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
